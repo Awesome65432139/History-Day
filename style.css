@@ -175,3 +175,7 @@ ul {
 #effect4 {
   width: 41.5vw;
 }
+
+.next {
+  text-shadow: 1px 1px 15px dodgerblue;
+}
