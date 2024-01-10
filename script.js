@@ -106,13 +106,3 @@ document.querySelector("#effect4").onmouseover = (event) => {
     iteration += 1 / 3;
   }, 20);
 };
-
-animationSource(); {
-  var int = setInterval(update, 1000);
-  var i = 0;
-
-  function update() {
-      document.getElementById("animation").css("opacity", "0") = (i+=0.2) + "%";      
-      if(i>=1) clearInterval(int);
-  }
-}
