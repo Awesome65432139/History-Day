@@ -106,3 +106,7 @@ document.querySelector("#effect4").onmouseover = (event) => {
     iteration += 1 / 3;
   }, 20);
 };
+
+animationSource() {
+  
+}
