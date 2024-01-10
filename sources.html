@@ -10,9 +10,11 @@
   <link rel="stylesheet" href="style.css">
   <title>Sources | History Day | Noah Engelkes</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="img/airplane.gif"/>
 </head>
-<body onload="animationSource()">
-  <div class="wrapper">
+<body>
+  <image id="animation" src="img/airplane.gif"></image>
+  <div class="wrapper" onload="animationSource()">
     <div class="container">
       <ul>
         <li id="list1">Image One: </li>

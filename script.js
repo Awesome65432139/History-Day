@@ -107,6 +107,12 @@ document.querySelector("#effect4").onmouseover = (event) => {
   }, 20);
 };
 
-animationSource() {
-  
+animationSource(); {
+  var int = setInterval(update, 1000);
+  var i = 0;
+
+  function update() {
+      document.getElementById("animation").css("opacity", "0") = (i+=0.2) + "%";      
+      if(i>=1) clearInterval(int);
+  }
 }
