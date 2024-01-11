@@ -128,7 +128,7 @@ input:checked + label .description {
 }
 
 .card[for="c2"] {
-  background-image: url("../img/historyday2.jpg");
+  background-image: url("../img/historyday5.jpg");
   background-repeat: no-repeat;
   background-size: 600px;
 }
@@ -140,7 +140,7 @@ input:checked + label .description {
 }
 
 .card[for="c4"] {
-  background-image: url("../img/historyday5.jpg");
+  background-image: url("../img/historyday2.jpg");
   background-repeat: no-repeat;
   background-size: 600px;
 }
@@ -211,7 +211,6 @@ p {
   height: 400px;
   width: 800px;
   background: cover;
-  cursor: pointer;
   overflow: hidden;
   border-radius: 2rem;
   display: block;
@@ -235,7 +234,6 @@ p {
   height: 400px;
   width: 800px;
   background: cover;
-  cursor: pointer;
   overflow: hidden;
   border-radius: 2rem;
   display: block;
@@ -259,7 +257,6 @@ p {
   height: 400px;
   width: 800px;
   background: cover;
-  cursor: pointer;
   overflow: hidden;
   border-radius: 2rem;
   display: block;
@@ -283,7 +280,6 @@ p {
   height: 400px;
   width: 800px;
   background: cover;
-  cursor: pointer;
   overflow: hidden;
   border-radius: 2rem;
   display: block;
@@ -293,6 +289,29 @@ p {
 }
 
 .page4div > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 760px;
+  text-indent: 30px;
+}
+
+.page5div {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: #112;
+  height: 400px;
+  width: 800px;
+  background: cover;
+  overflow: hidden;
+  border-radius: 2rem;
+  display: block;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28, -0.03, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.page5div > p {
   margin-top: 20px;
   margin-left: 30px;
   width: 760px;
