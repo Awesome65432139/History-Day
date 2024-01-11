@@ -17,24 +17,7 @@
     <script>
       const swup = new Swup();
     </script>
-    <style preload>
-      .transition-fade {
-        opacity: 1;
-        transition: 750ms;
-        transform: translateX(0);
-        transform-origin: left;
-      }
-
-      html.is-animating .transition-fade {
-        opacity: 1;
-        transform: translateX(-75%);
-      }
-
-      html.is-leaving .transition-fade {
-        opacity: 0;
-        transform: translateX(75%);
-      }
-    </style>
+    <link preload  rel="stylesheet" href="CSS/swup.css">
   </head>
   <body>
     <main id="swup" class="transition-fade">
