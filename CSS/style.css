@@ -140,6 +140,12 @@ input:checked + label .description {
 }
 
 .card[for="c4"] {
+  background-image: url("../img/historyday5.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+
+.card[for="c5"] {
   background-image: url("../img/historyday4.jpg");
   background-repeat: no-repeat;
   background-size: 600px;
@@ -182,18 +188,6 @@ ul {
   border: 0.2vw solid #112;
 }
 
-#effect2 {
-  width: 18.51vw;
-}
-
-#effect3 {
-  width: 20.8vw;
-}
-
-#effect4 {
-  width: 41.5vw;
-}
-
 .next {
   color: lightgray;
   text-decoration: none;
@@ -202,4 +196,120 @@ ul {
 
 .next:hover {
   color: lightblue;
+}
+
+p {
+  width: 500px;
+  height: 30px;
+}
+
+.page1div {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: #112;
+  height: 400px;
+  width: 800px;
+  background: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  display: block;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28, -0.03, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.page1div > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 760px;
+  text-indent: 30px;
+}
+
+.page2div {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: #112;
+  height: 400px;
+  width: 800px;
+  background: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  display: block;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28, -0.03, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.page2div > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 760px;
+  text-indent: 30px;
+}
+
+.page3div {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: #112;
+  height: 400px;
+  width: 800px;
+  background: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  display: block;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28, -0.03, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.page3div > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 760px;
+  text-indent: 30px;
+}
+
+.page4div {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: #112;
+  height: 400px;
+  width: 800px;
+  background: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  display: block;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28, -0.03, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.page4div > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 760px;
+  text-indent: 30px;
+}
+
+.sources {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  width: 15vw;
+  height: 7vh;
+  font-size: 150%;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  background-color: #223;
+  border-radius: .75rem;
+  border: 0.2vw solid #112;
+  margin-left: 44vw;
 }
