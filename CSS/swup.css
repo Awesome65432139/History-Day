@@ -7,10 +7,10 @@
 
 html.is-animating .transition-fade {
   opacity: 1;
-  transform: translateX(-75%);
+  transform: translateX(75%);
 }
 
 html.is-leaving .transition-fade {
   opacity: 0;
-  transform: translateX(75%);
+  transform: translateX(-75%);
 }
