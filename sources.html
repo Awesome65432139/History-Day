@@ -11,23 +11,29 @@
   <title>Sources | History Day | Noah Engelkes</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preload" as="image" href="img/airplane.gif"/>
+  <script defer src="https://unpkg.com/swup@4"></script>
+  <script>
+    const swup = new Swup();
+  </script>
 </head>
 <body>
-  <image id="animation" src="img/airplane.gif"></image>
-  <div class="wrapper" onload="animationSource()">
-    <div class="container">
-      <ul>
-        <li id="list1">Image One: </li>
-        <li><a target="_blank" href="https://en.wikipedia.org/wiki/File:Wright_brothers.jpg" class="srcButton">Link</a></li>
-        <li id="list2">Image Two: </li>
-        <li><a target="_blank" href="https://www.seattletimes.com/entertainment/books/the-wright-brothers-a-soaring-saga-of-the-power-of-invention/" class="srcButton">Link</a></li>
-        <li id="list3">Image Three: </li>
-        <li><a target="_blank" href="https://www.space.com/17431-wright-flyer-test-flights-at-fort-myer-va.html" class="srcButton">Link</a></li>
-        <li id="list4">Image Four: </li>
-        <a target="_blank" href="https://science.howstuffworks.com/transport/flight/modern/airplanes.htm" class="srcButton">Link</a>
-      </ul>
+  <main id="swup" class="transition-fade">
+    <!-- <image id="animation" src="img/airplane.gif"></image> -->
+    <div class="wrapper" onload="animationSource()">
+      <div class="container">
+        <ul>
+          <li id="list1">Image One: </li>
+          <li><a target="_blank" href="https://en.wikipedia.org/wiki/File:Wright_brothers.jpg" class="srcButton">Link</a></li>
+          <li id="list2">Image Two: </li>
+          <li><a target="_blank" href="https://www.seattletimes.com/entertainment/books/the-wright-brothers-a-soaring-saga-of-the-power-of-invention/" class="srcButton">Link</a></li>
+          <li id="list3">Image Three: </li>
+          <li><a target="_blank" href="https://www.space.com/17431-wright-flyer-test-flights-at-fort-myer-va.html" class="srcButton">Link</a></li>
+          <li id="list4">Image Four: </li>
+          <a target="_blank" href="https://science.howstuffworks.com/transport/flight/modern/airplanes.htm" class="srcButton">Link</a>
+        </ul>
+      </div>
     </div>
-  </div>
+  </main>
   <a id="sources" href="index.html">Go Back</a>
   <scripts src="script.js"></scripts>
   <script src="https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js"></script>
