@@ -1,6 +1,6 @@
 .transition-fade {
   opacity: 1;
-  transition: 1250ms;
+  transition: 750ms;
   transform: translateX(0);
   transform-origin: left;
 }
@@ -13,4 +13,17 @@ html.is-animating .transition-fade {
 html.is-leaving .transition-fade {
   opacity: 0;
   transform: translateX(75%);
+}
+
+.transition-slide {
+  transition: 1250ms;
+  transform: translateY();
+}
+
+html.is-animating .transition-slide {
+  transform: translateY();
+}
+
+html.is-leaving .transition-slide {
+  transform: translateY();
 }
