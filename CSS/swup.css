@@ -17,13 +17,9 @@ html.is-leaving .transition-fade {
 
 .transition-slide {
   transition: 1250ms;
-  transform: translateY();
+  transform: translateY(0);
 }
 
 html.is-animating .transition-slide {
-  transform: translateY();
-}
-
-html.is-leaving .transition-slide {
-  transform: translateY();
+  transform: translateY(100%);
 }
