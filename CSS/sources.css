@@ -17,11 +17,12 @@ h1 {
 }
 
 .wrapper {
-  width: 100%;
+  width: 100vw;
   height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: scroll;
 }
 
 .sources {
@@ -44,13 +45,14 @@ h1 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: start;
+  overflow: scroll;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow: scroll;
   background-color: #223;
   color: white;
   font-size: 150%;
