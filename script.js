@@ -133,11 +133,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 20);
   };
   
-  document.getElementById("effect1").innerHTML = "Hover Here!‎‎‎‎‎‎";
-  document.getElementById("effect2").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
-  document.getElementById("effect3").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
-  document.getElementById("effect4").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
-  document.getElementById("effect5").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";}
+  // document.getElementById("effect1").innerHTML = "Hover Here!‎‎‎‎‎‎";
+  // document.getElementById("effect2").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect3").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect4").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect5").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";}
 );
 
 swup.hooks.on('page:view', () => {
@@ -275,9 +275,9 @@ swup.hooks.on('page:view', () => {
     }, 20);
   };
   
-  document.getElementById("effect1").innerHTML = "Hover Here!‎‎‎‎‎‎";
-  document.getElementById("effect2").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
-  document.getElementById("effect3").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
-  document.getElementById("effect4").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
-  document.getElementById("effect5").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect1").innerHTML = "Hover Here!‎‎‎‎‎‎";
+  // document.getElementById("effect2").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect3").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect4").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  // document.getElementById("effect5").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
 });
