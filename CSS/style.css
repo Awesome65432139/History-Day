@@ -392,8 +392,8 @@ p {
   margin-left: 44vw;
 }
 
-video {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.wrightflight {
+  padding: 20px;
+  width: 21.9vw;
+  height: auto;
 }
