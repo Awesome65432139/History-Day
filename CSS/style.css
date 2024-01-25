@@ -391,3 +391,9 @@ p {
   border: 0.2vw solid #112;
   margin-left: 44vw;
 }
+
+video {
+  padding-top: 20px;
+  padding-left: auto;
+  padding-right: auto;
+}
