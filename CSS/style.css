@@ -393,7 +393,9 @@ p {
 }
 
 .wrightflight {
-  padding: 20px;
   width: 21.9vw;
   height: auto;
+  border-radius: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 }
