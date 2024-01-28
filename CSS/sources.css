@@ -45,7 +45,6 @@ h1 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: start;
-  overflow: scroll;
 }
 
 ul {
