@@ -138,6 +138,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // document.getElementById("effect3").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
   // document.getElementById("effect4").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
   // document.getElementById("effect5").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";}
+  document.getElementById("effect1").innerHTML = "What did they Do?";
+  document.getElementById("effect2").innerHTML = "What led up to this?";
+  document.getElementById("effect3").innerHTML = "What started this?";
+  document.getElementById("effect4").innerHTML = "What immediatley changed?";
+  document.getElementById("effect5").innerHTML = "What is the legacy of their work?";}
 );
 
 swup.hooks.on('page:view', () => {
@@ -280,4 +285,9 @@ swup.hooks.on('page:view', () => {
   // document.getElementById("effect3").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
   // document.getElementById("effect4").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
   // document.getElementById("effect5").innerHTML = "‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎";
+  document.getElementById("effect1").innerHTML = "What did they Do?";
+  document.getElementById("effect2").innerHTML = "What led up to this?";
+  document.getElementById("effect3").innerHTML = "What started this?";
+  document.getElementById("effect4").innerHTML = "What immediatley changed?";
+  document.getElementById("effect5").innerHTML = "What is the legacy of their work?";}
 });
